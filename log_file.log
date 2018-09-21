@@ -1,0 +1,882 @@
+2018-04-23 12:11:53 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-23 12:11:53 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2018-04-23 12:11:53 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2018-04-23 12:11:53 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-23 12:11:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-23 12:11:54 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-23 12:11:54 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-23 12:11:54 INFO  Version:30 - HV000001: Hibernate Validator 5.3.4.Final
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-23 12:11:59 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-23 12:12:00 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:30:52 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-25 10:30:52 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2018-04-25 10:30:52 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2018-04-25 10:30:52 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-25 10:30:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-25 10:30:53 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-25 10:30:53 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-25 10:30:53 INFO  Version:30 - HV000001: Hibernate Validator 5.3.4.Final
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:31:03 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:31:04 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:31:15 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:31:18 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name getHomePage
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method getHomePage in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:32 - getHomePage called...
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: fileDownload
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method getHomePage in Class com.el.spring.controller.FileDownloadController
+2018-04-25 10:31:25 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name downloadFile
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method downloadFile in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:32 - downloadFile called...
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:28 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name getHomePage
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method getHomePage in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:32 - getHomePage called...
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: fileDownload
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method getHomePage in Class com.el.spring.controller.FileDownloadController
+2018-04-25 10:31:30 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:31:31 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name changeRate
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method changeRate in Calss com.el.spring.controller.BookController
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:32 - changeRate called...
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: bookrate
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method changeRate in Class com.el.spring.controller.BookController
+2018-04-25 10:31:34 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:31:38 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:31:45 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:32:04 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:32:07 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:36:12 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name getHomePage
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method getHomePage in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:32 - getHomePage called...
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: fileDownload
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method getHomePage in Class com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:15 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name downloadFile
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method downloadFile in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:32 - downloadFile called...
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:17 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name getHomePage
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method getHomePage in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:32 - getHomePage called...
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: fileDownload
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method getHomePage in Class com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:18 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name downloadFile
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method downloadFile in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:32 - downloadFile called...
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:20 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:36:22 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:24 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:24 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:24 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name bookData
+2018-04-25 10:36:24 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method bookData in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:32 - bookData called...
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /bookdata
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method bookData in Class com.el.spring.controller.BookController
+2018-04-25 10:36:25 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name changeRate
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method changeRate in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:32 - changeRate called...
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /bookdata
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method changeRate in Class com.el.spring.controller.BookController
+2018-04-25 10:36:29 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.CommentController With Method Name addCommentToBookdataPage
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method addCommentToBookdataPage in Calss com.el.spring.controller.CommentController
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:32 - addCommentToBookdataPage called...
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /bookdata
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method addCommentToBookdataPage in Class com.el.spring.controller.CommentController
+2018-04-25 10:36:37 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:36:41 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:36:43 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:36:44 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooks
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooks in Calss com.el.spring.controller.BookController
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:32 - listBooks called...
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: books
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooks in Class com.el.spring.controller.BookController
+2018-04-25 10:36:47 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:36:53 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name listUsers
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listUsers in Calss com.el.spring.controller.UserController
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:32 - listUsers called...
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /users
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listUsers in Class com.el.spring.controller.UserController
+2018-04-25 10:36:54 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:37:01 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name listUsers
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listUsers in Calss com.el.spring.controller.UserController
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:32 - listUsers called...
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /users
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listUsers in Class com.el.spring.controller.UserController
+2018-04-25 10:37:07 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:37:16 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:37:21 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:43:41 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooks
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooks in Calss com.el.spring.controller.BookController
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:32 - listBooks called...
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: books
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooks in Class com.el.spring.controller.BookController
+2018-04-25 10:43:59 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name findBooks
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method findBooks in Calss com.el.spring.controller.BookController
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:32 - findBooks called...
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method findBooks in Class com.el.spring.controller.BookController
+2018-04-25 10:44:22 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name bookSortByCriteria
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method bookSortByCriteria in Calss com.el.spring.controller.BookController
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:32 - bookSortByCriteria called...
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method bookSortByCriteria in Class com.el.spring.controller.BookController
+2018-04-25 10:44:37 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name bookSortByCriteria
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method bookSortByCriteria in Calss com.el.spring.controller.BookController
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:32 - bookSortByCriteria called...
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method bookSortByCriteria in Class com.el.spring.controller.BookController
+2018-04-25 10:44:42 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name bookSortByCriteria
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method bookSortByCriteria in Calss com.el.spring.controller.BookController
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:32 - bookSortByCriteria called...
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method bookSortByCriteria in Class com.el.spring.controller.BookController
+2018-04-25 10:44:52 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:44:58 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:45:00 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name listUsers
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listUsers in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:32 - listUsers called...
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /users
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listUsers in Class com.el.spring.controller.UserController
+2018-04-25 10:45:01 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name removeUser
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method removeUser in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:32 - removeUser called...
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: redirect:/users
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method removeUser in Class com.el.spring.controller.UserController
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name listUsers
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listUsers in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:32 - listUsers called...
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: /users
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listUsers in Class com.el.spring.controller.UserController
+2018-04-25 10:45:18 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:45:22 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:45:23 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name manage
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method manage in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:32 - manage called...
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: manage
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method manage in Class com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:45:24 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:45:25 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:45:26 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:45:33 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name registration
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method registration in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:32 - registration called...
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: registration
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method registration in Class com.el.spring.controller.UserController
+2018-04-25 10:45:35 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name registration
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method registration in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:32 - registration called...
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: registration
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method registration in Class com.el.spring.controller.UserController
+2018-04-25 10:45:44 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:47 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:47 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:47 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name registration
+2018-04-25 10:45:47 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method registration in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:32 - registration called...
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: redirect:/welcome
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method registration in Class com.el.spring.controller.UserController
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:45:48 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:45:50 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.FileDownloadController With Method Name getHomePage
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method getHomePage in Calss com.el.spring.controller.FileDownloadController
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:32 - getHomePage called...
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: fileDownload
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method getHomePage in Class com.el.spring.controller.FileDownloadController
+2018-04-25 10:45:55 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:45:57 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name changeRate
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method changeRate in Calss com.el.spring.controller.BookController
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:32 - changeRate called...
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: bookrate
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method changeRate in Class com.el.spring.controller.BookController
+2018-04-25 10:46:00 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:46:04 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.BookController With Method Name listBooksForUsers
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method listBooksForUsers in Calss com.el.spring.controller.BookController
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:32 - listBooksForUsers called...
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: maincontent
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method listBooksForUsers in Class com.el.spring.controller.BookController
+2018-04-25 10:49:06 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name welcome
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method welcome in Calss com.el.spring.controller.UserController
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:32 - welcome called...
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: welcome
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method welcome in Class com.el.spring.controller.UserController
+2018-04-25 10:55:29 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:11 - ***************************************** Start beforeAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:12 - ASPECT INFO: Now we are going to initiate class.
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:16 - Entering to Class com.el.spring.controller.UserController With Method Name login
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:22 - ***************************************** End beforeAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:26 - ***************************************** Start afterAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:27 - ASPECT INFO: Class has been initiated.
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:30 - After Entring to Method login in Calss com.el.spring.controller.UserController
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:32 - login called...
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:33 - ***************************************** End afterAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:37 - ***************************************** Start afterReturningAdvice **************************************
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:38 - ASPECT INFO: Value: login
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:41 - After Returning From Method login in Class com.el.spring.controller.UserController
+2018-04-25 10:55:31 INFO  LoggingLog4jWithUseXmlConf:42 - ***************************************** End afterReturningAdvice **************************************
